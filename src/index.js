@@ -12,7 +12,7 @@ const amplifyConfig = {
     endpoints: [
       {
         name: "WifiUsageAPI",
-        endpoint: "https://x099x3o1wd.execute-api.ap-northeast-1.amazonaws.com/prod"
+        endpoint: "https://x099x3o1wd.execute-api.ap-northeast-1.amazonaws.com/prod/usage"
       }
     ]
   }
