@@ -12,7 +12,7 @@ function App() {
 
   async function fetchData() {
     try {
-      const response = await client.get('wifiAPI', '/usage');
+      const response = await client.get('WifiUsageAPI', '/usage');
       setData(JSON.parse(response.body));
     } catch (error) {
       console.error('Error fetching data:', error);
